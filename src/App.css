@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+.navbar{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  height: 10vh;
+  width: 100vw;
+  background:linear-gradient(rgb(27, 65, 24),rgb(66, 41, 27))  ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#home{
+  font-size: x-large;
+  font-weight:800;
+  color: rgb(251, 252, 252);
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
+  background-color: rgb(228, 224, 218) ;
+  width: 100vw;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  height: 100vh;
+}
+
+.messagebox form{
+  position: fixed;
+  bottom:0;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100vw;
 }
 
-.App-link {
-  color: #61dafb;
+.messagebox input{
+  width: 80vw;
+  height: 8vh;
+  border:none;
+  border-top-left-radius:25px ;
+  border-bottom-left-radius:25px ;
+  padding-left: 20px;
+}
+.messagebox input:focus{
+  border: 1px solid greenyellow;
+  outline:none;
+  color: grey;
+}
+.messagebox button{
+  height: 8.25vh;
+  width: 20vw;
+  border:none;
+  background-color: rgb(207, 253, 155);
+  border-top-right-radius:25px ;
+  border-bottom-right-radius:25px ;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main{
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 10vh;
 }

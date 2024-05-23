@@ -1,0 +1,38 @@
+.msg{
+    height: 2vh;
+    background-color: rgb(201, 198, 198);
+    font-weight: 600;
+    font-size: larger;
+    width: fit-content;
+    margin-left: 5vw;
+    margin-bottom: 2vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.mymsg{
+    align-self: flex-end;
+    display: flex;
+    background-color: rgb(143, 198, 198);
+    justify-content: right;
+    font-weight: 600;
+    font-size: larger;
+    width: fit-content;
+    margin-right: 5vw;
+    margin-bottom: 2vh;
+    padding: 20px;
+    align-items: center;
+    height: 2vh;
+}
+
+.self{
+    align-self: flex-end;
+    margin-right: 5vw;
+}
+
+.dif{
+    align-self: flex-start;
+    margin-left: 5vw;
+}
